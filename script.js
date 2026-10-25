@@ -55,7 +55,7 @@ for (let i =0;i<5;i++){
 //         Separate each number with ", " (comma and space).
 //         Print: console.log("Numbers: " + yourString)
 //         Example: "Numbers: 10, 20, 30, 40, 50"
-let numberString = "";
+let numbersString = "";
 for (let i=0;i< numbers.length;i++){
     numbersString += numbers[i]
     if (i<numbers.length-1){
@@ -92,6 +92,7 @@ for (let i = 0; i<numbers.length; i++){
         count++;
     }
 }
+console.log("Even count: "+count)
 // STEP 9: Find the largest number.
 //         Start with the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
