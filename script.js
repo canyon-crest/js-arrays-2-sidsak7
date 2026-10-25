@@ -24,7 +24,7 @@ let colors = ["red", "green", "blue"]
 //         "Color: green"
 //         "Color: blue"
 //         Use: console.log("Color: " + colors[i])
-for (i=0;i<colors.length;i++)
+for (let i=0;i<colors.length;i++)
 {
     console.log("Color: " + colors[i])
 }
@@ -62,7 +62,7 @@ for (let i=0;i< numbers.length;i++){
         numbersString += ", "
     }
 }
-console.log("Sum: " + sum)
+console.log("Numbers: " + numbersString)
 //         HINT: Start with an empty string. In the loop,
 //         add the number. If it's not the last number,
 //         also add ", " after it.
